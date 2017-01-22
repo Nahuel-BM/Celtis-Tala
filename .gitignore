@@ -8,6 +8,7 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+nbproject/
 
 # End of https://www.gitignore.io/api/netbeans
 
@@ -16,3 +17,6 @@ nbdist/
 **/Config.php
 
 **/Thumbs.db
+
+**/htmls/
+**/*.html
