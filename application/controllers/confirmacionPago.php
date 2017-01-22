@@ -7,7 +7,9 @@ class confirmacionPago {
 
     public function __construct() {
 
-        $mp = new MP("8506399170539624", "1wNLMkYKhM128iFvI1ilg2PgwuvXPWj1");
+        $data = self::getTokenYIdMercado();
+
+        $mp = new MP($data['idMercado'], $data['tokenMercado']);
 
         $mp->sandbox_mode(TRUE);
 
@@ -17,11 +19,27 @@ class confirmacionPago {
             print_r($payment_info["response"]);
 
             $sql = "INSERT INTO `pagos`(`data`) VALUES ('" . $payment_info["status"] . "');";
-            
+
             $db = new dbConn;
             $db->query($sql);
-            
         }
+    }
+
+    public function getTokenYIdMercado() {
+
+        try {
+
+            $db = new dbConn;
+
+            $err = '';
+        } catch (PDOException $e) {
+            $err = "Error: " . $e->getMessage();
+        }
+
+        $stmt = $db->conn->query("SELECT * FROM `Configuracion` LIMIT 1;");
+        $result = $stmt->fetch_assoc();
+
+        return $result;
     }
 
 }
