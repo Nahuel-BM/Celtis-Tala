@@ -38,7 +38,8 @@ switch ($option) {
             $header = new Template("./application/styles/views/general/header.php");
             $menu = new Template("./application/styles/views/general/menu.php");
             $content = new Template("./application/styles/views/about/about.php");
-
+            $footer = new Template("./application/styles/views/general/footer.php");
+            
             $salida = $head->output() . $header->output() . $menu->output() . $content->output() . $footer->output();
             die($salida);
             break;
