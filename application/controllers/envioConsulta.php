@@ -10,9 +10,7 @@ class envioConsulta {
     private $mensaje;
 
     public function __construct() {
-        /*
-         * name=Nahuel&phone=0354115683523&email=nahuel.bustamante%40gmail.com&message=Hola!!! 
-         */
+
         $this->nombre = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING);
         $this->telefono = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_STRING);
         $this->email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_STRING);

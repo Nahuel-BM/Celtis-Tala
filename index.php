@@ -5,36 +5,6 @@ $option = filter_input(INPUT_GET, "option", FILTER_SANITIZE_STRING);
 
 switch ($option) {
 
-    case "signup": {
-            $template = new Template('./application/styles/views/index/signup.php');
-            die($template->output());
-            break;
-        }
-    case "createuser": {
-            include_once('./application/controllers/createUser.php');
-            new createUser();
-            break;
-        }
-
-
-    case "login": {
-            $template = new Template('./application/styles/views/index/login.php');
-            die($template->output());
-            break;
-        }
-    case "logout": {
-            session_start();
-            session_destroy();
-            header('Location: ./');
-
-            break;
-        }
-
-    case "verifyuser": {
-            include_once('./application/controllers/verifyUser.php');
-            new verifyUser();
-            break;
-        }
     case "contact": {
 
             $head = new Template("./application/styles/views/general/head.php");

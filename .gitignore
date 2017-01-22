@@ -13,10 +13,10 @@ nbproject/
 # End of https://www.gitignore.io/api/netbeans
 
 
-**/config.php
+#**/config.php
 **/Config.php
 
 **/Thumbs.db
 
 **/htmls/
-**/*.html
+#**/*.html
