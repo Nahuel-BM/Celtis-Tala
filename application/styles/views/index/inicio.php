@@ -67,7 +67,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
         </div>
         <div class="col-md-6">
-            <img class="img-responsive" src="application/styles/img/700x450/10.jpeg" alt="">
+            <img class="img-responsive" src="/application/styles/img/700x450/min/10.jpeg" alt="">
         </div>
     </div>
     <!-- /.row -->
@@ -82,32 +82,32 @@
         </div>
         <div class="col-md-4 col-sm-6">
             <a href="portfolio-item.html">
-                <img class="img-responsive img-portfolio img-hover" src="application/styles/img/700x450/1.jpeg" alt="">
+                <img class="img-responsive img-portfolio img-hover " src="/application/styles/img/700x450/min/1.jpeg" alt="">
             </a>
         </div>
         <div class="col-md-4 col-sm-6">
             <a href="portfolio-item.html">
-                <img class="img-responsive img-portfolio img-hover" src="application/styles/img/700x450/2.jpeg" alt="">
+                <img class="img-responsive img-portfolio img-hover " src="/application/styles/img/700x450/min/2.jpeg" alt="">
             </a>
         </div>
         <div class="col-md-4 col-sm-6">
             <a href="portfolio-item.html">
-                <img class="img-responsive img-portfolio img-hover" src="application/styles/img/700x450/3.jpeg" alt="">
+                <img class="img-responsive img-portfolio img-hover " src="/application/styles/img/700x450/min/3.jpeg" alt="">
             </a>
         </div>
         <div class="col-md-4 col-sm-6">
             <a href="portfolio-item.html">
-                <img class="img-responsive img-portfolio img-hover" src="application/styles/img/700x450/4.jpeg" alt="">
+                <img class="img-responsive img-portfolio img-hover " src="/application/styles/img/700x450/min/4.jpeg" alt="">
             </a>
         </div>
         <div class="col-md-4 col-sm-6">
             <a href="portfolio-item.html">
-                <img class="img-responsive img-portfolio img-hover" src="application/styles/img/700x450/7.jpeg" alt="">
+                <img class="img-responsive img-portfolio img-hover " src="/application/styles/img/700x450/min/7.jpeg" alt="">
             </a>
         </div>
         <div class="col-md-4 col-sm-6">
             <a href="portfolio-item.html">
-                <img class="img-responsive img-portfolio img-hover" src="application/styles/img/700x450/6.jpeg" alt="">
+                <img class="img-responsive img-portfolio img-hover " src="/application/styles/img/700x450/min/6.jpeg" alt="">
             </a>
         </div>
     </div>
